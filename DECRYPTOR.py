@@ -51,3 +51,14 @@ for i in range(len(message)):
         changed_char += "u"
     else:
         changed_char += message[i]
+
+        time.sleep(2) 
+print(Fore.CYAN + line.center(35) + "The decrypted message is.... ")
+time.sleep(2)
+print(line.center(35) + changed_char)
+decrypt = figlet_format(changed_char, font='bubble', width=500)
+c_art = colored(decrypt, 'red')
+print(Fore.LIGHTCYAN_EX + "=" * 100)
+for line in c_art.split("\n"):
+    print(line.center(50))
+print(Fore.LIGHTCYAN_EX + "=" * 100)
