@@ -1,20 +1,8 @@
-'''PSEUDOCODE
-START
-HEADING/PROMPT
-GET user's encrypted TEXT
-FOR char IN encypted TEXT
-    IF char in encypted TEXT = "*"
-       REPLACE with "a"
-    ELIF char in encypted TEXT = "&"
-       REPLACE with "e"
-    ELIF char in encypted TEXT = "#"
-       REPLACE with "i"
-    ELIF char in encypted TEXT = "+"
-       REPLACE with "o"
-    ELIF char in encypted TEXT = "!"
-       REPLACE with "u"
-    ELSE 
-    DISPLAY Encrypted TEXT
-
-PRINT Decrpted TEXT    
-'''
+'''BABIERA,ALEXA | CMPE 103 LAB EXERCISE NO. 1 (PROBLEM 3) | OOP|APRIL 07,2023 '''
+# import the necessary module
+from pyfiglet import figlet_format
+import pygame
+from termcolor import colored
+import pyfiglet
+from colorama import Back, Fore, Style, init
+import time
