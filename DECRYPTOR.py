@@ -21,3 +21,9 @@ print(Fore.WHITE + '''PROBLEM 2 - DECRYPTION
 Write a program that will accept a string as encypted text and then the program will decrypt it using the following character substitute:
 'a'= *, 'e'= &, 'i'= #, 'o'= +, 'u'= ! ''')
 print(Fore.YELLOW + "=" * 100)
+
+
+# Program takes in user's input (message)
+message = input(
+    Fore.CYAN + "Enter an encrypted message \n(ex. th& q!#ck br+wn f+x ) : ")
+changed_char = ""
