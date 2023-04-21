@@ -6,3 +6,18 @@ from termcolor import colored
 import pyfiglet
 from colorama import Back, Fore, Style, init
 import time
+
+# formatting the header
+art = figlet_format(" PROBLEM 2\nDECRYPTION", font='block', width=500)
+c_art = colored(art, 'yellow')
+
+print(Fore.LIGHTCYAN_EX + "=" * 100)
+for line in c_art.split("\n"):
+    print(line.center(100))
+print(Fore.LIGHTCYAN_EX + "=" * 100)
+
+print(Fore.YELLOW + "=" * 100)
+print(Fore.WHITE + '''PROBLEM 2 - DECRYPTION
+Write a program that will accept a string as encypted text and then the program will decrypt it using the following character substitute:
+'a'= *, 'e'= &, 'i'= #, 'o'= +, 'u'= ! ''')
+print(Fore.YELLOW + "=" * 100)
